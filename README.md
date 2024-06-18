@@ -1,1 +1,1 @@
-This project is about making my first web project with just using HTML
+My very first web project using only basic HTML.
