@@ -1,1 +1,1 @@
-My very first web project using only basic HTML.
+My first web.
