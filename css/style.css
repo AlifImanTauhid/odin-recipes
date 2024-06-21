@@ -1,0 +1,37 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Homepage */
+.food li a {
+  text-decoration: none;
+}
+
+/* mie rebus */
+div img {
+  object-fit: cover;
+}
+
+.mie-des {
+  background-color: RGB(192, 33, 14);
+}
+
+.p1,
+.p2,
+.p3 {
+  background-color: RGB(202, 125, 0);
+}
+
+/* nasi goreng*/
+.nasgor-div img {
+  object-fit: cover;
+}
+
+.nas {
+  background-color: RGB(253, 178, 57);
+}
+
+/* kolak pisang */
+.pis {
+  background-color: RGB(254, 214, 94);
+}
