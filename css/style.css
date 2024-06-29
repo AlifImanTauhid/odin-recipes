@@ -1,37 +1,325 @@
+/** Reset */
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Homepage */
-.food li a {
+body {
+  background-color: rgb(219, 213, 213);
+  color: #333;
+}
+
+/* Container */
+.container.index {
+  width: 700px;
+  margin: 60px auto;
+  background-color: white;
+  box-shadow: 5px 5px 15px#525151;
+}
+/* endof container */
+
+/* Header */
+.header {
+  padding: 20px;
+  background-color: #333;
+  color: rgb(211, 207, 207);
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
   text-decoration: none;
+  color: #333;
+  padding: 5px;
+  color: rgb(211, 207, 207);
+}
+
+.header a:hover {
+  color: white;
+  background-color: rgb(130, 189, 43);
+}
+/* endof header */
+
+/* Content Recipes */
+.recipes {
+  padding: 20px;
+  border-top: 4px solid rgb(130, 189, 43);
+}
+
+.recipes ul li {
+  margin-top: 20px;
+  margin-left: 19px;
+}
+
+.food a:hover {
+  color: white;
+  background-color: rgb(130, 189, 43);
+}
+/* endof content recipes */
+
+/* Homepage */
+.food a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
 }
 
 /* mie rebus */
-div img {
-  object-fit: cover;
+.container.mieRebus {
+  width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 5px 5px 15px#525151;
 }
 
-.mie-des {
-  background-color: RGB(192, 33, 14);
+.headerMieRebus {
+  padding: 20px;
+  background-color: #333;
+  color: rgb(211, 207, 207);
 }
 
-.p1,
-.p2,
-.p3 {
-  background-color: RGB(202, 125, 0);
+.imgMieRebus {
+  height: 320px;
+  background-image: url(../img/mie-rebus-medan.jpg);
+  background-size: cover;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+}
+
+.sidebarMie1 {
+  width: 400px;
+  padding: 35px;
+  float: left;
+}
+
+.sidebarMie1 p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.sidebarMie1 h3:nth-child(1n + 2) {
+  margin-top: 20px;
+}
+
+.sidebarMie1 ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.sidebarMie2 {
+  width: 400px;
+  padding: 35px;
+  float: right;
+}
+
+.sidebarMie2 h4:nth-child(2) {
+  margin-top: 10px;
+}
+
+.sidebarMie2 h4:nth-child(1n + 3) {
+  margin-top: 20px;
+}
+
+.sidebarMie2 ol li {
+  margin-top: 10px;
+  margin-left: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerMie {
+  background-color: #333;
+  color: rgb(211, 207, 207);
+  padding: 35px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerMie ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.footerMie p {
+  margin-top: 10px;
 }
 
 /* nasi goreng*/
-.nasgor-div img {
-  object-fit: cover;
+.container.nasgor {
+  width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 5px 5px 15px#525151;
 }
 
-.nas {
-  background-color: RGB(253, 178, 57);
+.headerNasgor {
+  padding: 20px;
+  background-color: #333;
+  color: rgb(211, 207, 207);
+}
+
+.imgNasgor {
+  height: 320px;
+  background-image: url(../img/nasi-goreng.jpg);
+  background-size: cover;
+  background-position: 0 -220px;
+  background-repeat: no-repeat;
+}
+
+.sidebarNasgor1 {
+  width: 400px;
+  padding: 35px;
+  float: left;
+}
+
+.sidebarNasgor1 p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.sidebarNasgor1 h3:nth-child(1n + 2) {
+  margin-top: 20px;
+}
+
+.sidebarNasgor1 ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.sidebarNasgor2 {
+  width: 400px;
+  padding: 35px;
+  float: right;
+}
+
+.sidebarNasgor2 h4:nth-child(2) {
+  margin-top: 10px;
+}
+
+.sidebarNasgor2 h4:nth-child(1n + 3) {
+  margin-top: 20px;
+}
+
+.sidebarNasgor2 ol li {
+  margin-top: 10px;
+  margin-left: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerNasgor {
+  background-color: #333;
+  color: rgb(211, 207, 207);
+  padding: 35px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerNasgor ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.footerNasgor p {
+  margin-top: 10px;
 }
 
 /* kolak pisang */
-.pis {
-  background-color: RGB(254, 214, 94);
+.container.kolak {
+  width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 5px 5px 15px#525151;
+}
+
+.headerKolak {
+  padding: 20px;
+  background-color: #333;
+  color: rgb(211, 207, 207);
+}
+
+.imgKolak {
+  height: 320px;
+  background-image: url(../img/kolak-pisang.jpg);
+  background-size: cover;
+  background-position: 0 -100px;
+  background-repeat: no-repeat;
+}
+
+.sidebarKolak1 {
+  width: 400px;
+  padding: 35px;
+  float: left;
+}
+
+.sidebarKolak1 p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.sidebarKolak1 h3:nth-child(1n + 2) {
+  margin-top: 20px;
+}
+
+.sidebarKolak1 ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.sidebarKolak2 {
+  width: 400px;
+  padding: 35px;
+  float: right;
+}
+
+.sidebarKolak2 h4:nth-child(2) {
+  margin-top: 10px;
+}
+
+.sidebarKolak2 h4:nth-child(1n + 3) {
+  margin-top: 20px;
+}
+
+.sidebarKolak2 ol li {
+  margin-top: 10px;
+  margin-left: 18px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerKolak {
+  background-color: #333;
+  color: rgb(211, 207, 207);
+  padding: 35px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.footerKolak ul li {
+  margin-top: 10px;
+  margin-left: 17px;
+}
+
+.footerKolak p {
+  margin-top: 10px;
+}
+
+/* claerfix */
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
 }
