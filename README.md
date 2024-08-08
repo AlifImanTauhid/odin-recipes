@@ -11,5 +11,5 @@ This project consists of a single HTML page styled with CSS. The main goal was t
 
 Files Included:
     
- - index.html: The main HTML file containing the structure of the webpage.
- - styles.css: The CSS file used to style the webpage.
+ - `index.html`: The main HTML file containing the structure of the webpage.
+ - `styles.css`: The CSS file used to style the webpage.
